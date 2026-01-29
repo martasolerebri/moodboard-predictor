@@ -59,8 +59,10 @@ async def predict_vibe(request: VibeRequest):
             num_images=request.num_images
         )
 
+        display_text = final_summary.replace("aesthetic", "").replace("Aesthetic", "").strip()
+
         return {
-            "final_prompt": final_summary,
+            "final_prompt": display_text,
             "images": images,
         }
         
