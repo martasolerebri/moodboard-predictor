@@ -55,7 +55,7 @@ async def predict_vibe(request: VibeRequest):
         print(f"{'='*60}\n")
         
         images = get_live_moodboard(
-            f"{final_summary}", 
+            f"{final_summary}  aesthetic", 
             num_images=request.num_images
         )
 

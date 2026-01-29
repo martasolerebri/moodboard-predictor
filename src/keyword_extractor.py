@@ -55,7 +55,7 @@ class KeywordExtractor:
             raw_keywords = self.extract_keywords_with_groq(description)
             print(f"Keywords (Groq): {raw_keywords}")
             
-            final_summary = raw_keywords + " aesthetic"
+            final_summary = raw_keywords 
             
             return final_summary
             
