@@ -76,7 +76,7 @@ footer {
     box-shadow:
         0 25px 60px rgba(190, 120, 150, 0.18),
         inset 0 1px 0 rgba(255,255,255,0.6);
-    margin-bottom: 2rem; /* Reduced margin since result section is gone/smaller */
+    margin-bottom: 2rem;
 }
 
 textarea {
@@ -119,7 +119,6 @@ button:hover {
     box-shadow: 0 14px 30px rgba(224,106,156,0.45);
 }
 
-/* Updated Result Section Styles */
 #result-container {
     display: none;
     width: 100%;
@@ -151,7 +150,7 @@ button:hover {
     border-radius: 18px;
     margin-bottom: 16px;
     transition: 0.35s ease;
-    display: block; /* Removes bottom space */
+    display: block; 
 }
 
 #moodboard img:hover {
